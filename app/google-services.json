@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "74719792070",
+    "firebase_url": "https://finalproject-b9e82.firebaseio.com",
+    "project_id": "finalproject-b9e82",
+    "storage_bucket": "finalproject-b9e82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74719792070:android:68c53671c1914125ef40c7",
+        "android_client_info": {
+          "package_name": "com.example.On_The_Go_Crime_Report"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74719792070-8b28haeufvamuaanp7ir3r8sv6irc1np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVPDrfoplTWCJJs5XWe0JCUfStBssBYT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74719792070-8b28haeufvamuaanp7ir3r8sv6irc1np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

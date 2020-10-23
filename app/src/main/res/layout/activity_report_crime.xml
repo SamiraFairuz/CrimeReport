@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    tools:context=".ReportCrime">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topText"
+        android:layout_marginBottom="15sp"
+        android:text="Upload picture" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnChoose"
+        android:layout_below="@+id/topText"
+        android:layout_marginRight="10sp"
+        android:background="#cf1020"
+        android:text="Choose"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpload"
+        android:layout_below="@+id/topText"
+        android:layout_toRightOf="@+id/btnChoose"
+        android:background="#cf1020"
+        android:text="Submit"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameField"
+        android:layout_below="@id/btnChoose"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_outline"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/areaField"
+        android:layout_below="@id/nameField"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_outline"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:hint="Area"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/descField"
+        android:layout_below="@id/areaField"
+        android:background="@drawable/input_outline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:hint="Post Description"/>
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:layout_below="@id/descField"/>
+
+    <TextView
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/warning"
+        android:layout_below="@id/imgView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="15sp"
+        android:layout_marginBottom="15sp"
+        android:text="*Warning*: Please give only valid information. Everything will be validated by the authority. Misinformation may lead to account disable." />
+
+
+</RelativeLayout>
